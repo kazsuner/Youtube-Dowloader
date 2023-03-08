@@ -12,7 +12,7 @@ root = tk.Tk()
 
 root.title("Youtube Downloader")
 
-root.iconbitmap("C:/Users/MCPab/Desktop/Nueva carpeta/Youtube.ico") #Change path
+root.iconbitmap("Youtube.ico") #Change path
 
 root.geometry("700x300")
 
@@ -45,7 +45,7 @@ header = Label(root,bg="black",width="300",height="2")
 header.place(x=0,y=0)
 
 
-yt_logo = ImageTk.PhotoImage(Image.open('C:/Users/MCPab/Desktop/Nueva carpeta/youtube.png')) #Change path
+yt_logo = ImageTk.PhotoImage(Image.open('youtube.png')) #Change path
 logo = Label(root, image = yt_logo,borderwidth=0)
 logo.place(x=10,y=10)
 
@@ -54,7 +54,7 @@ caption = Label(root,text="YouTube Downloader",font=('verdana',10,'bold'))
 caption.place(x=50,y=10)
 
 
-yt1_logo = ImageTk.PhotoImage(Image.open('C:/Users/MCPab/Desktop/Nueva carpeta/yt.png')) #Change path
+yt1_logo = ImageTk.PhotoImage(Image.open('yt.png')) #Change path
 logo1 = Label(root, image = yt1_logo,borderwidth=0)
 logo1.place(x=300,y=60)
 
